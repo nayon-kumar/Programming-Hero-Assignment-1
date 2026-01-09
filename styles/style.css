@@ -235,6 +235,7 @@ footer hr {
 .footerLeft img {
   width: 139px;
   height: 60px;
+  cursor: pointer;
 }
 .footerWraper {
   width: 85%;
@@ -250,4 +251,25 @@ footer hr {
   font-size: 20px;
   line-height: 28px;
   font-weight: 500;
+  margin-bottom: 16px;
+}
+.footerRight a {
+  color: black;
+  background-color: white;
+  height: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition-duration: 0.3s;
+}
+.footerRight a:hover {
+  background-color: #469165;
+  color: #ffffff;
+}
+footer p {
+  color: #fafafa;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 400;
 }
