@@ -189,3 +189,65 @@ nav {
   margin-bottom: 16px;
   padding-top: -105px;
 }
+
+/* Early cccess section design started from here */
+.earlyAccessWraper {
+  width: 85%;
+  background-color: #f7f6f2;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.earlyAccessWraper h2 {
+  padding-top: 80px;
+}
+
+.earlyAccessWraper button {
+  height: 52px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 16px;
+}
+
+.earlyAccessWraper p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  font-weight: 400;
+}
+.earlyAccessP {
+  padding-bottom: 80px;
+}
+
+/* Footer section design started form here */
+footer {
+  background-color: #001931;
+  height: 348px;
+}
+footer hr {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  border: 1px solid #002445;
+}
+.footerLeft img {
+  width: 139px;
+  height: 60px;
+}
+.footerWraper {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  padding-top: 120px;
+}
+
+.footerRight h4 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
