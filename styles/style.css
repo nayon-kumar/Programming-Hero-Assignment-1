@@ -1,12 +1,11 @@
 /* Nav section design started from here */
 nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid red;
   justify-content: space-between;
+  align-items: center;
   margin-left: 120px;
   margin-right: 120px;
+  height: 92px;
 }
 .menuArea ul {
   display: flex;
@@ -36,4 +35,64 @@ nav {
 .getArea button {
   width: 164px;
   height: 44px;
+}
+
+/* Banner area design started from here */
+#bannerArea {
+  height: 674px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/hero-bg.png);
+  background-repeat: no-repeat;
+}
+
+.topArea {
+  text-align: center;
+}
+.topArea a {
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #469165;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.topArea a:hover {
+  background-color: #469165;
+  color: #ffffff;
+}
+.topArea p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.buttonArea {
+  text-align: center;
+}
+.buttonArea button {
+  height: 52px;
+  padding: 16px;
+  margin-right: 16px;
+}
+.hFirst {
+  color: #ffffff;
+}
+
+.hSecond {
+  color: #30b868;
+}
+.btn2 {
+  background-color: rgba(70, 145, 101, 0.1);
+  color: #ffffff;
+  border: 1px solid white;
+}
+
+/* Note section design started from here */
+.noteWraper {
+  width: 85%;
 }
