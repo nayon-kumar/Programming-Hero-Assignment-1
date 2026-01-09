@@ -30,3 +30,15 @@ ul {
 .btn:hover {
   background-color: #1abc9c;
 }
+
+.headSection h2 {
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.headSection p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}

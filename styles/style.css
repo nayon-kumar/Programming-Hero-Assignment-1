@@ -95,4 +95,97 @@ nav {
 /* Note section design started from here */
 .noteWraper {
   width: 85%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.headSection {
+  text-align: center;
+  margin-bottom: 44px;
+}
+.noteCard {
+  display: flex;
+  gap: 24px;
+}
+.card {
+  text-align: center;
+  border-radius: 10px;
+  max-width: 322px;
+  box-shadow: 0px 5px 20px rgb(181, 179, 179);
+  transition-duration: 0.2s;
+}
+.card:hover {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.7);
+}
+.card img {
+  margin-top: 69px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #f95555;
+  padding: 15px;
+}
+
+.card h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* Knowledge section design started from here */
+.knowledgeWraper {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  height: 600px;
+  gap: 60px;
+}
+
+.knowledgeLeft img {
+  max-width: 600px;
+  max-height: 600px;
+}
+.knowledgeRight {
+  margin: auto 0;
+}
+.knowledgeRight h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.knowledgeRight h2 {
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.knowledgeParagraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.check img {
+  height: 20px;
+  width: 20px;
+  margin-right: 6px;
+}
+.check p {
+  display: inline;
+  font-size: 16px;
+  font-weight: 500;
+  color: #001931;
+  margin-bottom: 16px;
+  padding-top: -105px;
 }
