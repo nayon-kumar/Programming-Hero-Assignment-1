@@ -1,0 +1,39 @@
+/* Nav section design started from here */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.menuArea ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+.menuArea ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.menuArea ul li {
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.menuArea ul li:hover {
+  background-color: #469165;
+}
+.menuArea ul li:hover a {
+  color: white;
+}
+.logoArea img {
+  width: 139px;
+  height: 60px;
+}
+.getArea button {
+  width: 164px;
+  height: 44px;
+}
